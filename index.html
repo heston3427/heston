@@ -1,50 +1,23 @@
-/* Basic styles for the travel website */
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-.destination {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Changing Page</title>
+  <script>
+    function changeColor() {
+      // Array of colors
+      const colors = ["red", "blue", "green", "yellow", "orange", "purple"];
+      
+      // Get a random color from the array
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      
+      // Change the background color
+      document.body.style.backgroundColor = randomColor;
+    }
+  </script>
+</head>
+<body>
+  <h1>Color Changing Page</h1>
+  <p>Click the button to change the background color!</p>
+  <button onclick="changeColor()">Change Color</button>
+</body>
+</html>
