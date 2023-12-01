@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Destinations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .destination {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .destination h2 {
+            margin-top: 5px;
+        }
+        .destination p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Popular Travel Destinations</h1>
+
+    <div class="destination">
+        <h2>Paris, France</h2>
+        <p>Known for the Eiffel Tower, beautiful architecture, and delicious cuisine.</p>
+    </div>
+
+    <div class="destination">
+        <h2>Tokyo, Japan</h2>
+        <p>Famous for its bustling city life, sushi, and traditional temples.</p>
+    </div>
+
+    <div class="destination">
+        <h2>New York City, USA</h2>
+        <p>Renowned for its iconic skyline, Broadway shows, and diverse culture.</p>
+    </div>
+</body>
+</html>
